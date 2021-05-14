@@ -1,0 +1,58 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.cards {
+  /* border: black 2px solid; */
+  display: inline-block;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+.card {
+  /* border: red 2px solid; */
+  margin: 10px 30px 10px 30px;
+  font-family: "Itim", cursive;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+/* .cards {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+}
+
+.card {
+  border: 2px solid #e7e7e7;
+
+  border-radius: 4px;
+
+  padding: 0.5rem;
+} */
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  border-radius: 10px;
+  height: 270px;
+  width: 270px;
+}
+.card-info {
+  /* border: rgb(0, 255, 76) 2px solid; */
+  text-align: center;
+  padding: 4px 0px 4px 0px;
+}
+
+a > button {
+  margin: 5px 0px 5px 0px;
+  padding: 2px;
+  /* border-radius: 1px; */
+}

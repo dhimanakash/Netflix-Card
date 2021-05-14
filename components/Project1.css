@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: cyan;
+  /* border: darkgreen 2px solid; */
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.box {
+  /* border: 2px solid red; */
+  background: darksalmon;
+  font-size: 45px;
+  border-radius: 20px;
+  padding: 15px;
+  color: rgb(233, 241, 115);
+  font-family: "Pangolin", cursive;
+  font-weight: 600;
+}
